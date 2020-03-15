@@ -1,4 +1,4 @@
-class AttributeData {
+class Attributes {
   str = 0;
   dex = 0;
   con = 0;
@@ -6,3 +6,5 @@ class AttributeData {
   wis = 0;
   cha = 0;
 }
+
+export default Attributes;

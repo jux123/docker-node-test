@@ -1,11 +1,11 @@
 import React from 'react';
-import Character from './containers/character/Character'
+import CharacterGenerator from './containers/characterGenerator/CharacterGenerator'
 
 function App() {
   return (
     <div className="App">
       <h1>OD&D Character Generator</h1>
-      <Character />
+      <CharacterGenerator />
     </div>
   );
 }

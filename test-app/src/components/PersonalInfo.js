@@ -1,8 +1,8 @@
 import React from 'react';
 
-const personalInfo = (props) => {
+const PersonalInfo = (props) => {
 
-  let {name, race, characterClass} = props;
+  let {name, race, characterClass} = props.character;
 
   return (
     <div>
@@ -20,4 +20,4 @@ const personalInfo = (props) => {
 
 }
 
-export default personalInfo;
+export default PersonalInfo;

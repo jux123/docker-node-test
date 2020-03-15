@@ -1,4 +1,6 @@
-class CharacterData {
+import Attributes from './Attributes';
+
+class Character {
 
   name = 'Olaf the Awesome';
   characterClass = 'Fighter';
@@ -6,6 +8,8 @@ class CharacterData {
   level = 1;
   hitPoints = 10;
   hitDice = '1d6';
-  attributes = new AttributeData();
+  attributes = new Attributes();
 
 }
+
+export default Character;
