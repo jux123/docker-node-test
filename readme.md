@@ -4,11 +4,14 @@ docker run -it -v /home/juhan/projects/docker-node-test/:/usr/src/app -p 3000:30
 ```
 
 # Exec container
+Get container ID by `docker ps`
 ```
 docker exec -it <container id> /bin/bash
 ```
 
 # Set up React project with dependencies
+Navigate to `/usr/src/app/test-app`
+
  - Install create-react-app tool
 ```
 npm install create-react-app -g
