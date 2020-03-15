@@ -34,6 +34,10 @@ yarn build
 # GIT commands
 ```
 git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:jux123/docker-node-test.git
+git push -u origin master
 ```
 ```
 git status
@@ -43,4 +47,10 @@ git add -A
 ```
 ```
 git reset <file>
+```
+```
+git log
+```
+```
+git diff
 ```
