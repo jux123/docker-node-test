@@ -1,3 +1,6 @@
+# Test app in node docker container
+https://github.com/jux123/docker-node-test
+
 # Start docker
 ```
 docker run -it -v /home/juhan/projects/docker-node-test/:/usr/src/app -p 3000:3000 node:10
